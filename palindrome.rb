@@ -5,13 +5,14 @@
 # For example, 121 is a palindrome while 123 is not.
 
 def is_palindrome(x)
- reverse = x.reverse
- if x === x.reverse
-    puts "true"
- else 
-    puts "false"
+    input = x.to_s
+    reverse = input.reverse
+        if input === reverse
+            p true
+        else 
+            p false
+        end
  end
-end
 
-x = "123"
+x = 121
 is_palindrome(x)
